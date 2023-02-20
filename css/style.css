@@ -10,6 +10,7 @@
     max-width: 1170px;
     min-height: 50px;
     background-color: rgb(138, 238, 107);
+    display: flex;
 }
 
 /*HEADER*/
@@ -19,7 +20,6 @@ header{
     color: white;
     min-height: 40px;
     padding: 15px;
-    margin-bottom: 15px;
 }
 
 header .container{
@@ -68,6 +68,51 @@ nav{
     height: 40px;
     display: flex;
     align-items: center;
+    border-style: dotted;
+    border-color: black;
+}
+
+.jumbotron{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content{
+    background-color: palevioletred;
+    height: 400px;
+    min-width: 800px;
+    border-style: dotted;
+    border-color: black;
+}
+
+/*MAIN*/
+
+.main-wrapper1,.main-wrapper2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 40px;
+}
+
+.main-wrapper2{
+    background-color: lightgray;
+}
+
+.illustration{
+    background-color: darkcyan;
+    height: 400px;
+    width: 60%;
+    border-style: dotted;
+    border-color: black;
+}
+
+.caption{
+    background-color: pink;
+    height: 400px;
+    width: 40%;
     border-style: dotted;
     border-color: black;
 }
