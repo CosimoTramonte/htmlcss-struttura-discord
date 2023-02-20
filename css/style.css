@@ -83,7 +83,7 @@ nav{
 .main-content{
     background-color: palevioletred;
     height: 400px;
-    min-width: 700px;
+    min-width: 60%;
     border-style: dotted;
     border-color: black;
 }
