@@ -140,24 +140,18 @@ footer{
     padding: 40px;
 }
 
-.footer-information{
+.footer-social{
     background-color: indianred;
     min-height: 400px;
-    width: 30%;
+    width: 40%;
     border-style: dotted;
     border-color: black;
 }
 
-footer ul{
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    width: 70%;
-}
 
-footer ul li{
+.col-menu{
     background-color: rgb(53, 124, 124);
-    width: 25%;
+    width: 20%;
     border-style: dotted;
     border-color: white;
 }
